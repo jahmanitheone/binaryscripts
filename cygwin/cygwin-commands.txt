@@ -1,0 +1,2 @@
+-- Check for installed packges
+cygcheck -c

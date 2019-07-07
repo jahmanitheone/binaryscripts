@@ -1,0 +1,30 @@
+Configure A Directory As A Host Site
+------------------------------------------
+o Create a host file in /etc/httpd/conf/extra
+- name it: demo.conf
+Alias /demo/ "/home/pchauvet/demo/"
+<Directory "/home/pchauvet/demo">
+        Options Indexes
+        AllowOverride None
+        Require all granted
+</Directory>
+
+o Associate this configugration with httpd.conf
+/etc/httpd/conf/httpd.conf
+
+- Add this to the last line of httpd.conf
+
+o Restart Apache
+/usr/sbin/httpd.exe -k restart
+
+o Create Directory For Web Content
+/home/pchauvet/demo/
+
+- Add php file: index.php
+<?php echo "Accesing Demo of PHP Access" ?>
+<?php echo "<p>Line 1" ?>
+<?php echo "<p>Great work!" ?>
+
+o Access In Browser
+http://localhost/demo/
+

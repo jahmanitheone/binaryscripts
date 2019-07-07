@@ -1,0 +1,3 @@
+* The jar file needed for docler:
+
+wonglh-kie-server-tomcat-e2a8ab95b1a1.zip

@@ -1,0 +1,32 @@
+Download H2
+-----------------------
+http://h2database.com/html/download.html
+
+Select "All Downloads"
+
+
+Unzip
+-------------------
+/bin/h2
+
+o Unzip all contents to /bin/h2
+bin
+build.bat
+build.sh
+docs
+h2-2017-06-10.zip
+service
+src
+
+
+Start H2
+----------------
+/bin/h2
+
+cd bin
+
+o Start h2.bat
+
+Console will open as:
+http://192.168.56.1:8082/login.jsp?jsessionid=b6b016559a8301fba5fcc715f723434c
+

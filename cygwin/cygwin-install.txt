@@ -1,0 +1,5 @@
+Install gcc Required Libraries
+--------------------------------------
+c:\cygwin64>setup-x86_64.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpf
+r-devel -P libgmp-devel -P libmpc-devel
+

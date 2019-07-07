@@ -1,0 +1,25 @@
+Start The server
+-------------------
+@java -cp "h2-1.4.196.jar;%H2DRIVERS%;%CLASSPATH%" org.h2.tools.Server %*
+@if errorlevel 1 pause
+
+o Save to /bin/h2/bin/h2server.bat
+It will start the server three services:
+C:\bin\h2\bin>h2server.bat
+TCP server running at tcp://192.168.56.1:9092 (only local connections)
+PG server running at pg://192.168.56.1:5435 (only local connections)
+Web Console server running at http://192.168.56.1:8082 (only local connections)
+
+
+Start The Shell Script
+----------------------------
+@java -cp "h2-1.4.196.jar;%H2DRIVERS%;%CLASSPATH%" org.h2.tools.Shell %*
+@if errorlevel 1 pause
+
+o Save to /bin/h2/bin/h2shell.bat
+Start the shell script access defaults, hit enter key.
+
+
+
+
+

@@ -1,0 +1,29 @@
+Create A Database - Version 1
+-------------------------------------
+o Connect to H2
+
+o Start Console
+Console will open as:
+http://192.168.56.1:8082/login.jsp?jsessionid=b6b016559a8301fba5fcc715f723434c
+
+o Create a database called: demoa
+In console enter in JDBC URL:
+jdbc:h2:~/demoa
+
+-> Connect
+
+The jdbc:h2~/demoa database is up
+
+Where Does H2 Place Its Files
+-------------------------------------
+cd C:\Users\pchauvet
+
+file demoa.mv - The database file
+h2.server.properties - The server configuration propery file
+
+
+
+
+
+
+

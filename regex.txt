@@ -1,0 +1,7 @@
+o 1 space followed by digits at end of line
+ex:  1,   234
+[\s]+[\d]*$
+
+o Begining of line with any: digits . and space
+ex: 1.2  , 1.2.1 
+^[.\d\s]*
